@@ -70,7 +70,7 @@ section.features .feature-container .feature {
   }
 }
 
-.cta {
+.cta, button {
   display: inline-block;
   padding: 10px 30px;
   background-color: #007bff;
@@ -80,7 +80,7 @@ section.features .feature-container .feature {
   transition: background-color 0.3s ease;
 }
 
-.cta:hover {
+.cta:hover , button:hover{
   background-color: #0056b3;
 }
 
@@ -90,3 +90,14 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+.prix {
+  color:#007bff;
+  font-size: 2rem;
+}
+
+.prix_old{
+  text-decoration: line-through;
+}
+
+
