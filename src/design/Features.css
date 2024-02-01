@@ -23,13 +23,47 @@ section.features .feature-container .feature {
 /* Pour les écrans jusqu'à 900px de large */
 @media (max-width: 900px) {
   section.features .feature-container .feature {
-      flex-basis: calc(50% - 20px); /* Ajustez le 20px si votre gap est différent */
+    flex-basis: calc(
+      50% - 20px
+    ); /* Ajustez le 20px si votre gap est différent */
   }
 }
 
 /* Pour les écrans jusqu'à 600px de large */
 @media (max-width: 600px) {
   section.features .feature-container .feature {
-      flex-basis: 100%;
+    flex-basis: 100%;
   }
+}
+
+.cta,
+button {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.prix {
+  color: #007bff;
+  font-size: 2rem;
+}
+
+.prix_old {
+  text-decoration: line-through;
 }
